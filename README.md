@@ -17,5 +17,5 @@ Korean Commonsense Knowledge Graph
     - ATOMIC과 같이 PersonX, PersonY, ...의 형태로 치환해야 함
       1. ATOMIC_trans가 이러한 표현을 그대로 사용함
       2. KommonGen의 완성형 문장에 포함된 "Human-Like enitity"를 그대로 유지할 경우, 어떤 상식 정보가 특정 나이나 성별에서만 나타나거나 나타나지 않을 수도 있음
-         Common-sense knowledge graph의 성격을 고려하여 그래프가 표현하는 정보는 "일반적인 것"이어야 함
+         - Common-sense knowledge graph의 성격을 고려하여 그래프가 표현하는 정보는 "일반적인 것"이어야 함
 

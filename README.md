@@ -19,3 +19,9 @@ Korean Commonsense Knowledge Graph
       2. KommonGen의 완성형 문장에 포함된 "Human-Like enitity"를 그대로 유지할 경우, 어떤 상식 정보가 특정 나이나 성별에서만 나타나거나 나타나지 않을 수도 있음
          - Common-sense knowledge graph의 성격을 고려하여 그래프가 표현하는 정보는 "일반적인 것"이어야 함
 
+- [X] KommonGen 완성형 문장 1500개를 xAttr, xNeed, xWant, xReact, xEffect, xIntent, HinderedBy의 7개 태그에 대해 생성
+
+    - 동일 event에 대해 inference마다 결과가 다르므로, 1개 event에 대해 5회 생성
+    - 총 52500개 생성 (기존 1400개)
+    - 하지만 생성 결과물 품질에 대해서는 검증이 필요
+
